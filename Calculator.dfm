@@ -1,4 +1,4 @@
-object Form1: TForm1
+object Frm_Principal: TFrm_Principal
   Left = 0
   Top = 0
   Caption = 'Calculator'
@@ -11,6 +11,7 @@ object Form1: TForm1
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  Position = poDesktopCenter
   PixelsPerInch = 96
   TextHeight = 13
   object lbl_display: TLabel

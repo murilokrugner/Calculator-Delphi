@@ -104,8 +104,10 @@
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
         <DCCReference Include="Calculator.pas">
-            <Form>Form1</Form>
-            <FormType>dfm</FormType>
+            <Form>Frm_Principal</Form>
+        </DCCReference>
+        <DCCReference Include="splashScreen.pas">
+            <Form>Frm_Splash</Form>
         </DCCReference>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>

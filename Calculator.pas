@@ -7,7 +7,7 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
 
 type
-  TForm1 = class(TForm)
+  TFrm_Principal = class(TForm)
     btn_mais: TButton;
     btn_menos: TButton;
     btn_0: TButton;
@@ -59,13 +59,13 @@ type
   end;
 
 var
-  Form1: TForm1;
+  Frm_Principal: TFrm_Principal;
 
 implementation
 
 {$R *.dfm}
 
-procedure TForm1.btn_5Click(Sender: TObject);
+procedure TFrm_Principal.btn_5Click(Sender: TObject);
 begin
   if edit_display.Text = '0' then
     edit_display.Text := '';
@@ -73,7 +73,7 @@ begin
   edit_display.Text := edit_display.Text + IntToStr(5);
 end;
 
-procedure TForm1.btn_2Click(Sender: TObject);
+procedure TFrm_Principal.btn_2Click(Sender: TObject);
 begin
   if edit_display.Text = '0' then
     edit_display.Text := '';
@@ -81,7 +81,7 @@ begin
   edit_display.Text := edit_display.Text + IntToStr(2);
 end;
 
-procedure TForm1.btn_igualClick(Sender: TObject);
+procedure TFrm_Principal.btn_igualClick(Sender: TObject);
 begin
   edit_expression.Text := edit_display.Text + edit_expression.Text;
 
@@ -101,13 +101,13 @@ begin
   edit_display.Text := FloatToStr(result);
 end;
 
-procedure TForm1.btn_cClick(Sender: TObject);
+procedure TFrm_Principal.btn_cClick(Sender: TObject);
 begin
   edit_display.Text := '0';
   edit_expression.Text := '';
 end;
 
-procedure TForm1.btn_dividirClick(Sender: TObject);
+procedure TFrm_Principal.btn_dividirClick(Sender: TObject);
 begin
   num1 := StrToInt(edit_display.Text);
   expression := '/';
@@ -115,7 +115,7 @@ begin
   edit_display.Text := '';
 end;
 
-procedure TForm1.btn_9Click(Sender: TObject);
+procedure TFrm_Principal.btn_9Click(Sender: TObject);
 begin
   if edit_display.Text = '0' then
     edit_display.Text := '';
@@ -123,7 +123,7 @@ begin
   edit_display.Text := edit_display.Text + IntToStr(9);
 end;
 
-procedure TForm1.btn_apagarClick(Sender: TObject);
+procedure TFrm_Principal.btn_apagarClick(Sender: TObject);
 var
   backSpace:string;
 begin
@@ -133,7 +133,7 @@ begin
 
 end;
 
-procedure TForm1.btn_maisClick(Sender: TObject);
+procedure TFrm_Principal.btn_maisClick(Sender: TObject);
 begin
   num1 := StrToFloat(edit_display.Text);
   expression := '+';
@@ -141,7 +141,7 @@ begin
   edit_display.Text := '';
 end;
 
-procedure TForm1.btn_menosClick(Sender: TObject);
+procedure TFrm_Principal.btn_menosClick(Sender: TObject);
 begin
   num1 := StrToInt(edit_display.Text);
   expression := '-';
@@ -149,13 +149,13 @@ begin
   edit_display.Text := '';
 end;
 
-procedure TForm1.btn_virgulaClick(Sender: TObject);
+procedure TFrm_Principal.btn_virgulaClick(Sender: TObject);
 begin
   point := ',';
   edit_display.Text := edit_display.Text + ',';
 end;
 
-procedure TForm1.btn_porcentagemClick(Sender: TObject);
+procedure TFrm_Principal.btn_porcentagemClick(Sender: TObject);
 begin
   num2 := StrToInt(edit_display.Text);
   porcent := num1 + (num1 * num2 / 100);
@@ -168,7 +168,7 @@ begin
   edit_display.Text := FloatToStr(result);
 end;
 
-procedure TForm1.btn_vezesClick(Sender: TObject);
+procedure TFrm_Principal.btn_vezesClick(Sender: TObject);
 begin
   num1 := StrToInt(edit_display.Text);
   expression := '*';
@@ -176,7 +176,7 @@ begin
   edit_display.Text := '';
 end;
 
-procedure TForm1.btn_0Click(Sender: TObject);
+procedure TFrm_Principal.btn_0Click(Sender: TObject);
 begin
   if edit_display.Text = '0' then
     edit_display.Text := '';
@@ -184,7 +184,7 @@ begin
   edit_display.Text := edit_display.Text + IntToStr(0);
 end;
 
-procedure TForm1.btn_3Click(Sender: TObject);
+procedure TFrm_Principal.btn_3Click(Sender: TObject);
 begin
   if edit_display.Text = '0' then
     edit_display.Text := '';
@@ -192,7 +192,7 @@ begin
   edit_display.Text := edit_display.Text + IntToStr(3);
 end;
 
-procedure TForm1.btn_6Click(Sender: TObject);
+procedure TFrm_Principal.btn_6Click(Sender: TObject);
 begin
   if edit_display.Text = '0' then
     edit_display.Text := '';
@@ -200,7 +200,7 @@ begin
   edit_display.Text := edit_display.Text + IntToStr(6);
 end;
 
-procedure TForm1.btn_7Click(Sender: TObject);
+procedure TFrm_Principal.btn_7Click(Sender: TObject);
 begin
   if edit_display.Text = '0' then
     edit_display.Text := '';
@@ -208,7 +208,7 @@ begin
   edit_display.Text := edit_display.Text + IntToStr(7);
 end;
 
-procedure TForm1.btn_4Click(Sender: TObject);
+procedure TFrm_Principal.btn_4Click(Sender: TObject);
 begin
   if edit_display.Text = '0' then
     edit_display.Text := '';
@@ -216,7 +216,7 @@ begin
   edit_display.Text := edit_display.Text + IntToStr(4);
 end;
 
-procedure TForm1.btn_1Click(Sender: TObject);
+procedure TFrm_Principal.btn_1Click(Sender: TObject);
 begin
   if edit_display.Text = '0' then
     edit_display.Text := '';
@@ -224,7 +224,7 @@ begin
   edit_display.Text := edit_display.Text + IntToStr(1);
 end;
 
-procedure TForm1.btn_8Click(Sender: TObject);
+procedure TFrm_Principal.btn_8Click(Sender: TObject);
 begin
   if edit_display.Text = '0' then
     edit_display.Text := '';

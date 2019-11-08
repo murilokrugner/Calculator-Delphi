@@ -3,8 +3,11 @@
 	<Transactions>
     <Transaction>2019/11/06 08:29:29.000.366,=C:\Users\Compras 3\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2019/11/07 12:53:08.000.503,=C:\Users\Compras 3\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2019/11/07 12:53:30.000.729,C:\Users\Compras 3\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Compras 3\Documents\Embarcadero\Studio\Projects\calculator\Calculator.pas</Transaction>
-    <Transaction>2019/11/07 12:53:30.000.729,C:\Users\Compras 3\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Compras 3\Documents\Embarcadero\Studio\Projects\calculator\Calculator.dfm</Transaction>
-    <Transaction>2019/11/07 12:53:38.000.207,C:\Users\Compras 3\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Compras 3\Documents\Embarcadero\Studio\Projects\calculator\CalculatorProject.dproj</Transaction>
+    <Transaction>2019/11/07 12:53:30.000.729,C:\Users\Compras 3\Documents\Embarcadero\Studio\Projects\calculator\Calculator.dfm=C:\Users\Compras 3\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2019/11/07 12:53:30.000.729,C:\Users\Compras 3\Documents\Embarcadero\Studio\Projects\calculator\Calculator.pas=C:\Users\Compras 3\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/11/07 12:53:38.000.207,C:\Users\Compras 3\Documents\Embarcadero\Studio\Projects\calculator\CalculatorProject.dproj=C:\Users\Compras 3\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2019/11/08 15:38:42.266,=C:\Users\Compras 3\Documents\Embarcadero\Studio\Projects\calculator\Unit2.pas</Transaction>
+    <Transaction>2019/11/08 15:39:39.050,C:\Users\Compras 3\Documents\Embarcadero\Studio\Projects\calculator\splashScreen.pas=C:\Users\Compras 3\Documents\Embarcadero\Studio\Projects\calculator\Unit2.pas</Transaction>
+    <Transaction>2019/11/08 15:39:39.050,C:\Users\Compras 3\Documents\Embarcadero\Studio\Projects\calculator\splashScreen.dfm=C:\Users\Compras 3\Documents\Embarcadero\Studio\Projects\calculator\Unit2.dfm</Transaction>
   </Transactions>
 </BorlandProject>

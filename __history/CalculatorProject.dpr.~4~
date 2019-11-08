@@ -1,0 +1,17 @@
+program CalculatorProject;
+
+uses
+  Vcl.Forms,
+  Calculator in 'Calculator.pas' {Form1},
+  splashScreen in 'splashScreen.pas' {Frm_Splash};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.Title := 'Calculator';
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TFrm_Splash, Frm_Splash);
+  Application.Run;
+end.
